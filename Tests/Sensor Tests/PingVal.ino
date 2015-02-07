@@ -15,6 +15,8 @@ int getPingDist(int pingPin)
 	duration = pulseIn(pingPin, HIGH);
 
 	cm = microsecondsToCentimeters(duration);
+
+	return cm;
 }
 
 
